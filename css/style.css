@@ -11,7 +11,10 @@ body {
   height: 85%;
   width: 80%;
   background-color: hsla(0, 0%, 0%, 0.5);
-  color: #ffffff;
+  color: #dcdcdc !important;
+}
+.free-mark .all_text h1{
+  margin-bottom: 30px;
 }
 .free_mark .all_text a{
   display: inline-block;
@@ -580,6 +583,14 @@ a:focus {
 
 .contact_section button:hover {
   background-color: #0061e0;
+}
+
+.google-maps{
+  padding: 50px !important;
+}
+.google-maps iframe{
+  height: 400px;
+  width: 100%;
 }
 
 .info_section {
